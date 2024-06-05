@@ -52,7 +52,17 @@ const yesTexts =
     'You are the love of my life 💕',
     'I adore you more than words can say 🥰',
 'I love you more than anything else 💝',
-'You know me so well 😏'
+'You know me so well 😏',
+'I'm so excited for our future 🏡',
+'I want to build a home for us 🏡',
+'iloveeyouuuuuu numnummmmm hihihihihi',
+'numm!!! gigill hihiihi',
+'iloveyou more',
+'you always make me so happy 🥺',
+'you are my inspiration',
+'I will be with you through ups and downs 😚',
+'you give me strength💪',
+'you're so worth it 🤍'
 ];
 
 const annoyedMessages = [
