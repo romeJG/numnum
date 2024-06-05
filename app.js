@@ -32,7 +32,7 @@ const texts = [
     'Will you be the love of my life? 💘'
 ];
 
-const yesTexts = 
+const yesTexts = [
     'I love you to the moon and back 🌙',
     'You make my heart skip a beat ❤️',
     'You are my everything 🌟',
@@ -51,18 +51,18 @@ const yesTexts =
     'You are my dream come true 💤',
     'You are the love of my life 💕',
     'I adore you more than words can say 🥰',
-'I love you more than anything else 💝',
-'You know me so well 😏',
-'I'm so excited for our future 🏡',
-'I want to build a home for us 🏡',
-'iloveeyouuuuuu numnummmmm hihihihihi',
-'numm!!! gigill hihiihi',
-'iloveyou more',
-'you always make me so happy 🥺',
-'you are my inspiration',
-'I will be with you through ups and downs 😚',
-'you give me strength💪',
-'you're so worth it 🤍'
+    'I love you more than anything else 💝',
+    'You know me so well 😏',
+    'I’m so excited for our future 🏡',
+    'I want to build a home for us 🏡',
+    'iloveeyouuuuuu numnummmmm hihihihihi',
+    'numm!!! gigill hihiihi',
+    'iloveyou more',
+    'you always make me so happy 🥺',
+    'you are my inspiration',
+    'I will be with you through ups and downs 😚',
+    'you give me strength💪',
+    'you’re so worth it 🤍'
 ];
 
 const annoyedMessages = [
@@ -72,7 +72,7 @@ const annoyedMessages = [
     'Come on, just say yes already! 😤',
     'You’re enjoying this, aren’t you? 😑',
     'Okay, now you’re just being mean. 😢',
-'nummmmmmmm say yes pleaseeeee 🥺🥺🥺'
+    'nummmmmmmm say yes pleaseeeee 🥺🥺🥺'
 ];
 
 function getRandomPosition() {
