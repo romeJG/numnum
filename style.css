@@ -53,10 +53,6 @@ p {
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
 }
-<!-- HTML !-->
-<button class="button-10" role="button">
-  <span class="text">Button 10</span>
-</button>
 
 /* CSS */
 button.button-10 {
