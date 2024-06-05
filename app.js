@@ -32,8 +32,7 @@ const texts = [
     'Will you be the love of my life? 💘'
 ];
 
-const yesTexts = [
-    'You are my sunshine ☀️',
+const yesTexts = 
     'I love you to the moon and back 🌙',
     'You make my heart skip a beat ❤️',
     'You are my everything 🌟',
