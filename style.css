@@ -5,15 +5,16 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: #f0f0f0;
 }
 
 #content {
   position: relative;
+  max-width: 90vw; /* Ensure the content doesn't overflow on mobile */
+  overflow: hidden;
 }
 
 #randomButton {
-  top: 60%;
+  top: 70%;
   position: absolute;
 }
 
@@ -21,7 +22,20 @@ p {
   text-align: center;
   font-size: 24px;
   margin-top: 100px; /* Adjust based on where you want the text */
+  word-wrap: break-word; /* Ensure long texts break and wrap within the container */
+  max-width: 90vw; /* Ensure text doesn't overflow on mobile */
 }
-d #yesButton {
+#yesButton {
   transition: transform 0.2s; /* Smoothly scale the button */
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 18px; /* Adjust the font size for smaller screens */
+    margin-top: 50px; /* Adjust the margin for smaller screens */
+  }
+
+  #randomButton {
+    top: 60%;
+  }
 }
