@@ -6,7 +6,6 @@ const kissGif = document.getElementById('kissGif');
 let clickCount = 0;
 let yesButtonScale = 1;
 let isYesPressed = false;
-let yesTextIndex = 0;
 let gifIndex = 1;
 //
 const texts = [
@@ -127,8 +126,8 @@ function cycleYesTexts() {
         yesButton.style.transform = `scale(${yesButtonScale})`;
     }
 
+    const yesTextIndex = Math.floor(Math.random() * texts.length);
     randomText.textContent = yesTexts[yesTextIndex];
-    yesTextIndex = (yesTextIndex + 1) % yesTexts.length;
 
     // Show next gif
     kissGif.src = getNextGif();
