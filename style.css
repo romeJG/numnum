@@ -36,7 +36,7 @@ p {
   margin: 20px auto; /* Center the button horizontally */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   p {
     font-size: 18px; /* Adjust the font size for smaller screens */
     margin-top: 50px; /* Adjust the margin for smaller screens */
