@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-color: #f0f0f0;
 }
 
 #content {
@@ -25,8 +26,14 @@ p {
   word-wrap: break-word; /* Ensure long texts break and wrap within the container */
   max-width: 90vw; /* Ensure text doesn't overflow on mobile */
 }
+
 #yesButton {
   transition: transform 0.2s; /* Smoothly scale the button */
+  width: auto; /* Ensure the button's width is automatic based on its content */
+  white-space: nowrap; /* Prevent text from wrapping */
+  padding: 10px 20px; /* Adjust padding as needed */
+  display: block; /* Make the button a block element */
+  margin: 20px auto; /* Center the button horizontally */
 }
 
 @media (max-width: 768px) {
@@ -37,5 +44,9 @@ p {
 
   #randomButton {
     top: 60%;
+  }
+
+  #yesButton {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
   }
 }
