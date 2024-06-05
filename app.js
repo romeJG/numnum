@@ -51,16 +51,19 @@ const yesTexts = [
     'You complete me 🧩',
     'You are my dream come true 💤',
     'You are the love of my life 💕',
-    'I adore you more than words can say 🥰'
+    'I adore you more than words can say 🥰',
+'I love you more than anything else 💝',
+'You know me so well 😏'
 ];
 
 const annoyedMessages = [
     'Seriously? You don’t want to say yes? 🙄',
     'Are you just trying to annoy me? 😠',
-    'Why do you keep pressing No? 😒',
+    'Why do you keep pressing No? 😔',
     'Come on, just say yes already! 😤',
     'You’re enjoying this, aren’t you? 😑',
-    'Okay, now you’re just being mean. 😢'
+    'Okay, now you’re just being mean. 😢',
+'nummmmmmmm say yes pleaseeeee 🥺🥺🥺'
 ];
 
 function getRandomPosition() {
