@@ -109,7 +109,7 @@ function cycleYesTexts() {
     if (!isYesPressed) {
         isYesPressed = true;
         button.style.display = 'none'; // Hide the "No!" button
-        yesButton.textContent = 'Thank you!!!';
+        yesButton.textContent = 'iloveyou!!!!';
         message.style.display = 'none'; // Hide the message element
         yesButtonScale = 1; // Reset the scale of the "Yes!!!!" button
         yesButton.style.transform = `scale(${yesButtonScale})`;
