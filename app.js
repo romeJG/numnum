@@ -8,7 +8,7 @@ let yesButtonScale = 1;
 let isYesPressed = false;
 let yesTextIndex = 0;
 let gifIndex = 1;
-
+//
 const texts = [
     'Will you be mine? ❤️',
     'Do you know how much I love you? 💖',
