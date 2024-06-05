@@ -15,7 +15,7 @@ body {
 }
 
 #randomButton {
-  top: 70%;
+  top: 57%;
   position: absolute;
 }
 
@@ -43,7 +43,7 @@ p {
   }
 
   #randomButton {
-    top: 60%;
+    top: 70%;
   }
 
   #yesButton {
