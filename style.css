@@ -16,7 +16,7 @@ img {
   max-width: 90vw; /* Ensure the content doesn't overflow on mobile */
   overflow: hidden;
 }
-
+/*  */
 #randomButton {
   top: 61%;
   position: absolute;
