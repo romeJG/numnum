@@ -6,8 +6,9 @@ const kissGif = document.getElementById('kissGif');
 let clickCount = 0;
 let yesButtonScale = 1;
 let isYesPressed = false;
+let yesTextIndex = 0;
 let gifIndex = 1;
-//
+
 const texts = [
     'Will you be mine? ❤️',
     'Do you know how much I love you? 💖',
@@ -31,7 +32,7 @@ const texts = [
     'Will you be the love of my life? 💘'
 ];
 
-const yesTexts = [
+let yesTexts = [
     'I love you to the moon and back 🌙',
     'You make my heart skip a beat ❤️',
     'You are my everything 🌟',
@@ -98,6 +99,13 @@ function getNextGif() {
     return `img/kiss${gifIndex}.gif`;
 }
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 function moveButtonAndChangeText() {
     const { x, y } = getRandomPosition();
     button.style.left = `${x}px`;
@@ -126,8 +134,13 @@ function cycleYesTexts() {
         yesButton.style.transform = `scale(${yesButtonScale})`;
     }
 
-    const yesTextIndex = Math.floor(Math.random() * texts.length);
     randomText.textContent = yesTexts[yesTextIndex];
+    yesTextIndex = (yesTextIndex + 1) % yesTexts.length;
+
+    // Shuffle the array after each cycle
+    if (yesTextIndex === 0) {
+        shuffleArray(yesTexts);
+    }
 
     // Show next gif
     kissGif.src = getNextGif();
