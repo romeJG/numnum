@@ -62,7 +62,8 @@ let yesTexts = [
     'you are my inspiration',
     'I will be with you through ups and downs 😚',
     'you give me strength💪',
-    'you’re so worth it 🤍'
+    'you’re so worth it 🤍',
+    ' nomatter what i’m always going to be yours 😙'
 ];
 
 const annoyedMessages = [
