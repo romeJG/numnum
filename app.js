@@ -153,3 +153,4 @@ yesButton.addEventListener('click', cycleYesTexts);
 
 // Set initial random text
 randomText.textContent = getRandomText();
+shuffleArray(yesTexts)
