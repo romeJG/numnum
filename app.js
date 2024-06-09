@@ -65,7 +65,8 @@ let yesTexts = [
     'you’re so worth it 🤍',
     ' nomatter what i’m always going to be yours 😙',
     'iloveyou with all my heart numnum',
-    'Iloveyou and you make my worl complete'
+    'Iloveyou and you make my worl complete',
+    'you make my life easier'
 ];
 
 const annoyedMessages = [
