@@ -63,7 +63,7 @@ let yesTexts = [
     'I will be with you through ups and downs 😚',
     'you give me strength💪',
     'you’re so worth it 🤍',
-    ' nomatter what i’m always going to be yours 😙'
+    ' nomatter what i’m always going to be yours 😙',
     'iloveyou with all my heart numnum',
     'Iloveyou and you make my worl complete'
 ];
