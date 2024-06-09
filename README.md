@@ -1,5 +1,3 @@
 # numnum
 
-nothing this is just a thing that i made for my baby
-
-iknow it's cheezy but yeah its fucking love lol.
+So this is just a html js thing i made for my GF ihope she liked it
